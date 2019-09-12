@@ -1,4 +1,0 @@
-This is a test file.
-Order to understand the git confict.
-Default file.
-This file is 4 rows.
