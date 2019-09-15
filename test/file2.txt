@@ -1,6 +1,11 @@
 this is file 2
 
+
 &&
 =======
 and
 
+=======
+add line
+add line2
+>>>>>>> dev
