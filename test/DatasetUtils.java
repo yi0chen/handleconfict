@@ -6,7 +6,7 @@ import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;
-
+import zhoufq1
 /**
  * @version
  */
@@ -16,7 +16,6 @@ public class DatasetUtils {
 	 * 
 	 * @return CategoryDataset
 	 */
-	public static CategoryDataset createDataset(String excelPath) {
 		Map<String, Map<String, Double>> read2dXlsxMM = ExcelPoiUtils.read2DXlsxMM(excelPath);
 		DefaultCategoryDataset dataset = new DefaultCategoryDataset();// 创建数据集对象
 		for(Entry<String, Map<String, Double>> entry : read2dXlsxMM.entrySet()) {
