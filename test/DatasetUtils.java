@@ -19,7 +19,6 @@ public class DatasetUtils {
 		Map<String, Map<String, Double>> read2dXlsxMM = ExcelPoiUtils.read2DXlsxMM(excelPath);
 		DefaultCategoryDataset dataset = new DefaultCategoryDataset();// 创建数据集对象
 		for(Entry<String, Map<String, Double>> entry : read2dXlsxMM.entrySet()) {
-			String rowKey = entry.getKey();
 			Map<String, Double> subMap = entry.getValue();
 			for (Entry<String, Double> subEntry: subMap.entrySet()) {
 				String columnKey = subEntry.getKey();
